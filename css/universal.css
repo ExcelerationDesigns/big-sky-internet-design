@@ -238,6 +238,9 @@ section, .section {
 
 .label, input, .btn, textarea, .dropdown-menu, .panel, .progress, .list-group-item, select {
     border-radius: 0 !important; }
+.left-text {
+    text-align: left;
+}
 
 .label {
     padding: 0.2em 0.7em 0.3em 0.7em; }
