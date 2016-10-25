@@ -1979,4 +1979,17 @@ li .shop-cart a:hover {
     to {
         background-position: -40000px 0; } }
 
-/*# sourceMappingURL=universal.css.map */
+/*
+
+  CUSTOM STYLE SECTION
+
+*/
+
+.footer-image {
+    height: 30px;
+}
+
+.footer-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
