@@ -1989,6 +1989,10 @@ li .shop-cart a:hover {
     height: 50px;
 }
 
+.smaller-section {
+    padding-top: 50px;
+}
+
 .footer-image img {
     max-width: 100%;
     max-height: 100%;
