@@ -8,12 +8,12 @@ Enter the year the site is designed in the copywriteDate ()'s:
 
 **********************************************************
 
-<SCRIPT LANGUAGE="JavaScript" SRC="copywrite.js"></SCRIPT>
-<SCRIPT language="javascript">
+<script language="JavaScript" SRC="copywrite.js"></script>
+<script language="javascript">
 <!--
 document.write (copywriteDate(2001));
 // -->
-</SCRIPT>
+</script>
 
 ********************************************************/
 
