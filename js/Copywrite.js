@@ -1,5 +1,3 @@
-<!--
-
 /*This file is copywrited by Big Sky Internet Design, Inc.  Any use of this file
 without expressed written permission of Big Sky Internet Design, Inc, is copywrite
 infringement and will be prosecuted to the full extent of the law.
