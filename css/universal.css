@@ -59,7 +59,11 @@ Table of contents
 	src: url('../fonts/JanesvilleScript.otf');
 	src: local('Janesville Script'), local('JanesvilleScript'), url('fonts/JanesvilleScript.ttf') format('truetype');
 }
-
+@font-face {
+	font-family: 'MarkMyWords';
+	src: url('../fonts/mark_my_words.otf');
+	src: local('mark_my_words'), local('MarkMyWords'), url('fonts/mark_my_words.ttf') format('truetype');
+}
 /* Base structure */
 html {
     width: 100% !important;
@@ -2008,10 +2012,22 @@ li .shop-cart a:hover {
 }
 
 .update-text {
-    font-size: 20px;
+    font-size: 38px;
+    font-family: "MarkMyWords";
 }
+
+.font-25 {
+    font-size: 25px;
+    font-family: "MarkMyWords";
+}
+
+.font-20 {
+    font-size: 20x;
+    font-family: "MarkMyWords";
+}
+
 .fancy-font {
-    font-family: "JanesvilleScript";
+    font-family: "MarkMyWords";
 }
 
 .black-font {
