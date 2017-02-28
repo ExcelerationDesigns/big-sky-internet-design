@@ -1843,6 +1843,11 @@ li .shop-cart a:hover {
     .h3, h3 {
         font-size: 20px; }
 
+    .h5, h5{
+        font-size: 20px;
+        text-align: left;
+    }
+
     .intro h1 {
         font-size: 48px;
         line-height: 48px; }
@@ -2031,6 +2036,16 @@ li .shop-cart a:hover {
 
 .font-20 {
     font-size: 20x;
+    font-family: "MarkMyWords";
+}
+
+.font-35 {
+    font-size: 35px;
+    font-family: "MarkMyWords";
+}
+
+.font-55 {
+    font-size: 55px;
     font-family: "MarkMyWords";
 }
 
