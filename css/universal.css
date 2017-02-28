@@ -53,6 +53,13 @@ Table of contents
 @import url(font-awesome.min.css);
 @import url(animate.min.css);
 @import url(swipebox.css);
+
+@font-face {
+	font-family: 'JanesvilleScript';
+	src: url('../fonts/JanesvilleScript.otf');
+	src: local('Janesville Script'), local('JanesvilleScript'), url('fonts/JanesvilleScript.ttf') format('truetype');
+}
+
 /* Base structure */
 html {
     width: 100% !important;
@@ -363,7 +370,8 @@ ul, ol {
     margin-bottom: 1.5em; }
 
 a .fa {
-    opacity: 0.6 !important; }
+    opacity: 0.6;
+}
 a .fa:hover {
     opacity: .9; }
 
@@ -2001,4 +2009,21 @@ li .shop-cart a:hover {
 
 .update-text {
     font-size: 20px;
+}
+.fancy-font {
+    font-family: "JanesvilleScript";
+}
+
+.black-font {
+    color: black;
+    opacity: 1!important;
+}
+
+
+.black-font:hover {
+    opacity: 0.6!important;
+}
+
+.img-responsive {
+    box-shadow: 2px 5px 3px rgba(0,0,0,.25);
 }
