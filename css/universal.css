@@ -237,11 +237,19 @@ section, .section {
     z-index: 992;
     padding-top: 140px;
     padding-bottom: 140px;
-    background-color: #fff; }
+    background-color: white; }
 
 .section-small {
     padding-top: 80px;
     padding-bottom: 80px; }
+
+.section-footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: lightblue;}
+
+.bg-img-footer {
+    background: url(../img/header/abstract-blue.jpg); }
 
 .list-inline > li {
     padding-bottom: 10px;
@@ -903,7 +911,7 @@ a.btn-nav .btn {
 .bg-img5 {
     background: url(../img/header/18.jpg); }
 
-.bg-img, .bg-img2, .bg-img3, .bg-img4, .bg-img5 {
+.bg-img, .bg-img2, .bg-img3, .bg-img4, .bg-img5, .bg-img-footer {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 50% 50%;
