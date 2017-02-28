@@ -57,12 +57,12 @@ Table of contents
 @font-face {
 	font-family: 'JanesvilleScript';
 	src: url('../fonts/JanesvilleScript.otf');
-	src: local('Janesville Script'), local('JanesvilleScript'), url('fonts/JanesvilleScript.ttf') format('truetype');
+	src: local('Janesville Script'), local('JanesvilleScript'), url('../fonts/JanesvilleScript.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'MarkMyWords';
 	src: url('../fonts/mark_my_words.otf');
-	src: local('mark_my_words'), local('MarkMyWords'), url('fonts/mark_my_words.ttf') format('truetype');
+	src: local('mark_my_words'), local('MarkMyWords'), url('../fonts/mark_my_words.ttf') format('truetype');
 }
 /* Base structure */
 html {
