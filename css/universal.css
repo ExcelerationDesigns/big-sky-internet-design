@@ -240,9 +240,12 @@ section, .section {
     background-color: white; }
 
 .section-small {
-    padding-top: 80px;
-    padding-bottom: 80px; }
-
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.section-small .footer-menu h6 {
+    font-size: 16px;
+}
 .section-footer {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -2065,4 +2068,35 @@ li .shop-cart a:hover {
 
 .img-responsive {
     box-shadow: 2px 5px 3px rgba(0,0,0,.25);
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.left-justify {
+    text-align: left;
+}
+
+.is-table-row {
+    display: table;
+}
+.is-table-row [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0px;
+}
+
+.center-client-image {
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+.off-white {
+    background-color: #fff;
 }
