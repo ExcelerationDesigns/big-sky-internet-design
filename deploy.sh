@@ -37,7 +37,10 @@ git pull
 git status
 
 echo "checkout gh pages"
-git checkout -b gh-pages
+if [[git checkout gh-pages -eq 1]]
+then
+ git checkout -b gh-pages
+fi
 git status
 
 echo "list dir"
