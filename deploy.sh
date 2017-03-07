@@ -39,8 +39,9 @@ git status
 set +e
 
 echo "attempt checkout gh pages"
+git checkout gh-pages && echo "OK" || echo "NOK"
 
-if git checkout gh-pages;
+if git checkout gh-pages; 
 then
   echo "checkout gh pages failed, attempting -b flag"
   set -e
