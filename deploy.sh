@@ -43,7 +43,7 @@ gch=`git checkout gh-pages`
 
 set -e
 
-if [ $gch == 1 ]
+if [ $gch -eq 1 ]
 then
   echo "checkout gh pages failed, attempting -b flag"
   git checkout -b gh-pages
