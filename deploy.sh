@@ -37,9 +37,11 @@ git pull
 git status
 
 echo "checkout gh pages"
-if [ git checkout gh-pages -eq 1 ]
+git_checkout = git checkout gh-pages
+if [ $git_checkout == 1 ]
 then
- git checkout -b gh-pages
+  echo "checkout gh pages failed, attempting -b flag"
+  git checkout -b gh-pages
 fi
 git status
 
