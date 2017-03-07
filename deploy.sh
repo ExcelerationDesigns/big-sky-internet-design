@@ -39,7 +39,7 @@ git status
 set +e
 
 echo "attempt checkout gh pages"
-git checkout gh-pages && echo "OK" || echo "NOK" ghc=1
+git checkout gh-pages && echo "OK" || ghc=1
 
 if [ $ghc == 1 ]; 
 then
