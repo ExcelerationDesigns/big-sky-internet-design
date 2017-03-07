@@ -38,18 +38,15 @@ git status
 
 set +e
 
-echo "checkout gh pages"
-gch=`git checkout gh-pages` $test
+echo "attempt checkout gh pages"
 
-set -e
-
-echo $gch
-echo $test
-if [ $gch -eq "1" ]
+if git checkout gh-pages;
 then
   echo "checkout gh pages failed, attempting -b flag"
+  set -e
   git checkout -b gh-pages
 fi
+set -e
 git status
 
 echo "list dir"
