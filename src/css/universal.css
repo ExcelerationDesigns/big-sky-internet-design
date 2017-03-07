@@ -2132,3 +2132,7 @@ li .shop-cart a:hover {
     background-image: url('../img/header/team-3.jpg');
 }
 
+.fav-icon {
+    background-image: url('../img/misc/favicon.png')
+}
+
