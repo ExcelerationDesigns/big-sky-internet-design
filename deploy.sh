@@ -36,8 +36,13 @@ git branch --set-upstream-to=origin/master master
 git pull
 git status
 
+set +e
+
 echo "checkout gh pages"
 gch=`git checkout gh-pages`
+
+set -e
+
 if [ $gch == 1 ]
 then
   echo "checkout gh pages failed, attempting -b flag"
