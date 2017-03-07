@@ -37,7 +37,7 @@ git pull
 git status
 
 echo "checkout gh pages"
-git checkout gh-pages
+git checkout -b gh-pages
 git status
 
 echo "list dir"
