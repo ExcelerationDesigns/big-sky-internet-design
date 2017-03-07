@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    ${require('./templates/header.html')}
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="top">
+        ${require('./templates/nav-menu.html')}
+        <!-- Header-->
+        <header class="intro intro-fullscreen four-o-four-bg">
+        <!-- Intro Header-->
+        <div class="intro-body">
+            <h1>404</h1>
+            <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                <h3>houston we have a problem...</h3>
+                <h4>maybe, just maybe, though, you'll be able to find what you were looking for below:</h4>
+                <form action="#" method="post" class="form-inline subscribe-form small-form">
+                    <div class="input-group input-group-lg">
+                    <input type="search" name="search" placeholder="Search..." class="form-control"><span class="input-group-btn">
+                        <button type="submit" name="search" class="btn btn-dark"><i class="fa fa-search fa-lg"></i></button></span>
+                    </div>
+                </form>
+                <ul class="list-inline">
+                    <li><a href="/"><i class="fa fa-facebook fa-fw fa-2x"></i></a></li>
+                </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+        </header>
+
+        ${require('./templates/footer.html')}
+    </body>
+</html>
