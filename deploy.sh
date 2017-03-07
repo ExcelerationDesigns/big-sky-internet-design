@@ -46,6 +46,7 @@ then
   set -e
   git checkout -b gh-pages
 fi
+echo $?
 set -e
 git status
 
