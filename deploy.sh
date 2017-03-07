@@ -37,7 +37,7 @@ git pull
 git status
 
 echo "checkout gh pages"
-if [[git checkout gh-pages -eq 1]]
+if [ git checkout gh-pages -eq 1 ]
 then
  git checkout -b gh-pages
 fi
