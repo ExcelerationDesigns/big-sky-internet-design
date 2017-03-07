@@ -39,11 +39,12 @@ git status
 set +e
 
 echo "checkout gh pages"
-gch=`git checkout gh-pages`
+gch=`git checkout gh-pages` $test
 
 set -e
 
 echo $gch
+echo $test
 if [ $gch -eq "1" ]
 then
   echo "checkout gh pages failed, attempting -b flag"
