@@ -1,5 +1,6 @@
 
 # Big Sky Internet Design - Redesign
+[![Build Status](https://travis-ci.org/ExcelerationDesigns/big-sky-internet-design.svg?branch=master)](https://travis-ci.org/ExcelerationDesigns/big-sky-internet-design)
 
 ## VS Code Extensions
 
