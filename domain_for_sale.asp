@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html>
       <head>
@@ -43,6 +46,15 @@
 </nav>
 
         <!-- Start  Insert Code-->
+<%
+dName = request.querystring("n")
+%>
+<%=dname%> is the name of the site.
+
+
+
+
+
         <!-- End Insert Code-->
         <!-- Google Anlytics -->
 <script>
