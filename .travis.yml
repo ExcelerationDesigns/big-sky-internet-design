@@ -29,11 +29,11 @@ install:
 - npm install
 
 script:
-
+- bash upload.sh
 
 after_success:
-- bash deploy.sh
-- bash upload.sh
+- bash gh_pages.sh
+
 
 notifications:
   email:

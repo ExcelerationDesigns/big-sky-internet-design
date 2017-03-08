@@ -55,7 +55,7 @@ echo "list dir"
 ls -als
 
 echo "remove all"
-rm -r !(|.|..|.git|.gitignore|dist|node_modules|assets|upload.sh)
+rm -r !(|.|..|.git|.gitignore|dist|node_modules|assets)
 
 echo "list dir"
 ls -als
