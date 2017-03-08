@@ -65,6 +65,16 @@ module.exports = {
         inject: true
       }),
       new HtmlWebpackPlugin({
+        filename: 'clients.html',
+        template: './src/clients.1.html',
+        inject: true
+      }),
+      new HtmlWebpackPlugin({
+        filename: 'clients.html',
+        template: './src/clients.1.html',
+        inject: true
+      }),
+      new HtmlWebpackPlugin({
         filename: 'contact.html',
         template: './src/contact.html',
         inject: true
