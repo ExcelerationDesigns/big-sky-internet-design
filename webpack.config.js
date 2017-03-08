@@ -89,10 +89,19 @@ module.exports = {
         template: './src/team.html',
         inject: true
       }),
-
       new HtmlWebpackPlugin({
         filename: 'onlinepayment.asp',
         template: './src/onlinepayment.asp',
+        inject: true
+      }),
+      new HtmlWebpackPlugin({
+        filename: 'domain_for_sale.asp',
+        template: './src/domain_for_sale.asp',
+        inject: true
+      }),
+      new HtmlWebpackPlugin({
+        filename: 'frozen_site.asp',
+        template: './src/frozen_site.asp',
         inject: true
       })
 

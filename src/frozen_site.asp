@@ -1,4 +1,4 @@
-```<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     ${require('./templates/header.html')}
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="top">
@@ -7,4 +7,4 @@
         <!-- End Insert Code-->
         ${require('./templates/footer.html')}
     </body>
-</html>```
+</html>
