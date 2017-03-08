@@ -91,7 +91,7 @@ module.exports = {
       }),
       new HtmlWebpackPlugin({
         filename: 'onlinepayment.asp',
-        template: './src/onlinepayment.asp',
+        template: 'html-loader?interpolate=require!./src/onlinepayment.asp',
         inject: true
       }),
       new HtmlWebpackPlugin({
@@ -101,7 +101,7 @@ module.exports = {
       }),
       new HtmlWebpackPlugin({
         filename: 'frozen_site.asp',
-        template: './src/frozen_site.asp',
+        template: 'html-loader?interpolate=require!./src/frozen_site.asp',
         inject: true
       })
 
