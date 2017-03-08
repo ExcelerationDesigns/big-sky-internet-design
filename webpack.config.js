@@ -96,7 +96,7 @@ module.exports = {
       }),
       new HtmlWebpackPlugin({
         filename: 'domain_for_sale.asp',
-        template: './src/domain_for_sale.asp',
+        template: 'html-loader?interpolate=require!./src/domain_for_sale.asp',
         inject: true
       }),
       new HtmlWebpackPlugin({
