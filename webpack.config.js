@@ -88,6 +88,12 @@ module.exports = {
         filename: 'team.html',
         template: './src/team.html',
         inject: true
+      }),
+
+      new HtmlWebpackPlugin({
+        filename: 'onlinepayment.asp',
+        template: './src/onlinepayment.asp',
+        inject: true
       })
 
     ]
