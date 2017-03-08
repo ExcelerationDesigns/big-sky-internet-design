@@ -15,6 +15,7 @@ apt:
   packages:
     - google-chrome-stable
     - google-chrome-beta
+    - lftp
 
 before_install:
   - export CHROME_BIN=chromium-browser
