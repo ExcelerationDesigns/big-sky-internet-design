@@ -25,7 +25,7 @@ var displayYear
 if (designYear == currentYear) {
 	displayYear = designYear
 }
-else {asdfadsf
+else {
 	displayYear = (designYear + " - " + currentYear)
 }
 return (displayYear + " &copy Copyright")
