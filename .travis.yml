@@ -33,6 +33,7 @@ script:
 
 after_success:
 - bash deploy.sh
+- bash upload.sh
 
 notifications:
   email:

@@ -91,17 +91,17 @@ module.exports = {
       }),
       new HtmlWebpackPlugin({
         filename: 'onlinepayment.asp',
-        template: './src/onlinepayment.asp',
+        template: 'html-loader?interpolate=require!./src/onlinepayment.asp',
         inject: true
       }),
       new HtmlWebpackPlugin({
         filename: 'domain_for_sale.asp',
-        template: './src/domain_for_sale.asp',
+        template: 'html-loader?interpolate=require!./src/domain_for_sale.asp',
         inject: true
       }),
       new HtmlWebpackPlugin({
         filename: 'frozen_site.asp',
-        template: './src/frozen_site.asp',
+        template: 'html-loader?interpolate=require!./src/frozen_site.asp',
         inject: true
       })
 
