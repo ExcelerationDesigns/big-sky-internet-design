@@ -52,68 +52,8 @@
             <h4>SAY HELLO</h4>
         </div>
     </header>
-    <!-- Contact Section-->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <h3>contact us</h3>
-                    <p>
-                        <!-- intersert message here about contancting them -->
-                    </p>
-                    <hr>
-                    <h5><i class="fa fa-map-marker fa-fw fa-lg"></i> 32 Raven Drive, Bryan, Texas 77808
-                    </h5>
-                    <h5><i class="fa fa-envelope fa-fw fa-lg"></i> info@bigskyinternetdesign.com
-                    </h5>
-                    <h5><i class="fa fa-phone fa-fw fa-lg"></i> (406) 223-5160 Sales Inquiries
-                    </h5>
-                    <h5><i class="fa fa-phone fa-fw fa-lg"></i> (979) 776-5160 Office
-                    </h5>
-                </div>
-                <div class="col-md-5 col-md-offset-2">
-                    <h3>Say hello</h3>
-                    <!-- Contact Form - Enter your email address on line 17 of the mail/contact_me.php file to make this form work. For more information on how to do this please visit the Docs!-->
-                    <form id="contactForm" name="sentMessage" novalidate="">
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls">
-                                <label for="name" class="sr-only control-label">Name</label>
-                                <input id="name" type="text" placeholder="Name" required="" data-validation-required-message="Please enter name" class="form-control input-lg">
-                                <span
-                                    class="help-block text-danger"></span>
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls">
-                                <label for="email" class="sr-only control-label">Email</label>
-                                <input id="email" type="email" placeholder="Email" required="" data-validation-required-message="Please enter email" class="form-control input-lg">
-                                <span
-                                    class="help-block text-danger"></span>
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls">
-                                <label for="phone" class="sr-only control-label">Phone</label>
-                                <input id="phone" type="tel" placeholder="Phone" required="" data-validation-required-message="Please enter phone number"
-                                    class="form-control input-lg"><span class="help-block text-danger"></span>
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls">
-                                <label for="message" class="sr-only control-label">Message</label>
-                                <textarea id="message" rows="2" placeholder="Message" required="" data-validation-required-message="Please enter a message."
-                                    aria-invalid="false" class="form-control input-lg"></textarea>
-                                <span
-                                    class="help-block text-danger"></span>
-                            </div>
-                        </div>
-                        <div id="success"></div>
-                        <button type="submit" class="btn btn-dark">Send</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Content Section-->
+
     <!-- Footer Section-->
     <section class="section-small footer bg-gray smaller-section">
         <div class="container">
@@ -172,6 +112,93 @@
 <!-- Custom Theme JavaScript-->
 <script type="text/javascript" src="./vendor/universal.js"></script>
 <script type="text/javascript" src="vendor/copywrite.js"></script>
+
+    <!-- Contact Section-->
+    <section class="bg-img2" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h3>contact us</h3>
+                    <p>Call or Email us! We would love to chat.</p>
+                    <hr>
+                    <h5><i class="fa fa-map-marker fa-fw fa-lg"></i> 32 Raven Drive, Bryan, Texas 77808
+                    </h5>
+                    <h5><a href="mailto:Info@BigSkyInternetDesign.com"> <i class="fa fa-envelope fa-fw fa-lg"></i> info@bigskyinternetdesign.com</a>
+                    </h5>
+                    <h5><a href="tel:406-223-5160"><i class="fa fa-phone fa-fw fa-lg"></i>  (406) 223-5160 Sales Inquiries</a>
+                    </h5>
+                    <h5><a href="tel:979-776-5160"><i class="fa fa-phone fa-fw fa-lg"></i>  (979) 776-5160 Office</a>
+                    </h5>
+                </div>
+                <div class="col-md-5 col-md-offset-2">
+                    <h3>Say hello</h3>
+                    <!-- Contact Form - Enter your email address on line 17 of the mail/contact_me.php file to make this form work. For more information on how to do this please visit the Docs!-->
+                    <!--<form id="contactForm" name="sentMessage" novalidate="">
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label for="name" class="sr-only control-label">Name</label>
+                                <input id="name" type="text" placeholder="Name" required="" data-validation-required-message="Please enter name" class="form-control input-lg">
+                                <span class="help-block text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label for="email" class="sr-only control-label">Email</label>
+                                <input id="email" type="email" placeholder="Email" required="" data-validation-required-message="Please enter email" class="form-control input-lg">
+                                <span class="help-block text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label for="phone" class="sr-only control-label">Number</label>
+                                <input id="phone" type="tel" placeholder="Number" required="" data-validation-required-message="Please enter phone number"
+                                    class="form-control input-lg"><span class="help-block text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label for="message" class="sr-only control-label">Message</label>
+                                <textarea id="message" rows="2" placeholder="Message" required="" data-validation-required-message="Please enter a message."
+                                    aria-invalid="false" class="form-control input-lg"></textarea>
+                                <span
+                                    class="help-block text-danger"></span>
+                            </div>
+                        </div>
+                        <div id="success"></div>
+                        <button type="submit" class="btn btn-dark">Send</button>
+                    </form> -->
+<script type="text/javascript" src="https://rockinb.formstack.com/forms/js.php/big_sky_say_hello?no_style=1"></script><noscript><a href="https://rockinb.formstack.com/forms/big_sky_say_hello" title="Online Form">Online Form - Big Sky Say Hello</a></noscript>            </div>
+        </div>
+    </section>
+    <!-- Footer Section-->
+    <section class="section-small footer bg-gray smaller-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 col-sm-offset-2 footer-menu">
+
+                    <h6 class="no-pad"><a href="indexparallaxhalf.html">Home</a></h6>
+                    <h6 class="no-pad"><a href="team.html">Our Team</a></h6>
+                </div>
+                <div class="col-sm-2 footer-menu">
+
+                    <h6 class="no-pad"><a href="portfolio.html">Portfolio</a></h6>
+                    <h6 class="no-pad"><a href="services.html">Services</a></h6>
+                </div>
+                <div class="col-sm-2 footer-menu">
+
+                    <h6 class="no-pad"><a href="clients.html">Testimonials</a></h6>
+                    <h6 class="no-pad"><a href="contact.html">Contact</a></h6>
+                </div>
+                <div class="col-sm-2 footer-menu">
+
+                    <h6 class="no-pad"><a href="onlinepayment.asp">Secure Payment</a></h6>
+                    <h6 class="no-pad"><a href="faq.html">Email Set Up</a></h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
 <section class="bg-img-footer">
   <div class="container">
