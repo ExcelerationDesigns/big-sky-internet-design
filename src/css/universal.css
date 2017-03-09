@@ -277,6 +277,23 @@ section, .section {
     border-radius: 2px !important; }
 
 /* Buttons */
+
+.fsSubmit input.fsSubmitButton {
+        font-size: 12px !important;
+    letter-spacing: 2px;
+    outline: 0;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    text-shadow: none;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 12px 6px 15px;
+    border: 2px solid #18191B !important;
+    background-color: #18191B!important;
+    color: #fff !important; }
+
 .btn {
     font-size: 12px !important;
     letter-spacing: 2px;
@@ -322,8 +339,8 @@ section, .section {
     color: #000 !important; }
 
 .btn-dark {
-    border: 2px solid #18191B;
-    background-color: #18191B;
+    border: 2px solid #18191B !important;
+    background-color: #18191B!important;
     color: #fff !important; }
 
 .btn-universal {
@@ -1069,6 +1086,60 @@ a.btn-nav .btn {
     z-index: 0 !important; }
 
 /* Forms */
+
+/* FormStack Forms*/
+.fsBody .fsForm {
+    padding: 0px!important;
+    /*color: #ffffff;*/
+     background-color:transparent!important;
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fsField{
+    color: #000;
+}
+
+.fsboxshadow .fsBody .fsForm {
+    box-shadow: none!important;
+    border: 0;
+}
+
+.fsForm .fsLabel {
+    width: 100%;
+    display: none!important;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: gray;
+  font-weight: normal;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: gray;
+    font-weight: normal;
+
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: gray;
+    font-weight: normal;
+
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: gray;
+  font-weight: normal;
+  opacity: 1;
+}
+
+.fsBody .fsForm select.fsField {
+    color: #09112b;
+    border-color: gray!important;
+    background-color: #FFFFFF;
+}
+
+/*Rest of forms */
 .small-form {
     margin: 0 auto 40px !important;
     max-width: 480px; }
