@@ -32,11 +32,11 @@
     ${require('./templates/nav-menu.html')}
 
     <!-- Header-->
-    <header class="intro introhalf faq-bg">
+    <header class="intro introhalf payment-bg">
         <!-- Intro Header-->
         <div class="intro-body">
-            <h1>GoDaddy Email Setup and Configuration</h1>
-            <h4>Frequently Asked Questions</h4>
+            <h1>Online Payment</h1>
+            <h4>Paying The Bills</h4>
         </div>
     </header>
 
