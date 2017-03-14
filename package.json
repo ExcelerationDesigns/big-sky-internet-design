@@ -18,7 +18,7 @@
   },
   "scripts": {
     "build": "webpack --progress --colors",
-    "webpackWatch": "webpack --progress --colors --watch",
+    "watch": "webpack --progress --colors --watch",
     "live-reload": "webpack-dev-server --progress --colors"
   },
   "repository": {
