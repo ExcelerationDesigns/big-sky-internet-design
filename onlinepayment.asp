@@ -31,9 +31,14 @@
     font-weight: 400!important;
     float: none;
 }
+
+.fsBody .fs2Col {
+    min-width: auto!important;
+}
+
 </style>
-    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="top">
-        <nav class="navbar navbar-universal navbar-custom navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="top">
+    <nav class="navbar navbar-universal navbar-custom navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <button type="button" data-toggle="collapse" data-target=".navbar-main-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
@@ -74,16 +79,18 @@
         </div>
     </header>
 
-        <!-- Start  Insert Code-->
-      <section id="payment" class="section-small">
+    <!-- Start  Insert Code-->
+    <section id="payment" class="section-small">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-<script type="text/javascript" src="https://rockinb.formstack.com/forms/js.php/big_sky_credit_card_payment_1"></script><noscript><a href="https://rockinb.formstack.com/forms/big_sky_credit_card_payment_1" title="Online Form">Online Form - Big Sky Credit Card Payment 1</a></noscript>            </div>
-        </div>
-      </section>
-        <!-- End Insert Code-->
-        <!-- Google Anlytics -->
+                    <script type="text/javascript" src="https://rockinb.formstack.com/forms/js.php/big_sky_credit_card_payment_1"></script>
+                    <noscript><a href="https://rockinb.formstack.com/forms/big_sky_credit_card_payment_1" title="Online Form">Online Form - Big Sky Credit Card Payment 1</a></noscript>
+                </div>
+            </div>
+    </section>
+    <!-- End Insert Code-->
+    <!-- Google Anlytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -257,6 +264,6 @@
   </div>
 </section>
 
-    <script type="text/javascript" src="app.js"></script></body>
+<script type="text/javascript" src="app.js"></script></body>
 
     </html>
