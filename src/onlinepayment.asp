@@ -46,7 +46,7 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
 <script type="text/javascript" src="https://rockinb.formstack.com/forms/js.php/big_sky_credit_card_payment_1"></script><noscript><a href="https://rockinb.formstack.com/forms/big_sky_credit_card_payment_1" title="Online Form">Online Form - Big Sky Credit Card Payment 1</a></noscript>                </div>
-            </div>
+           </div>
     </section>
     <!-- End Insert Code-->
     ${require('./templates/footer.html')}
