@@ -8455,6 +8455,10 @@ li .shop-cart a:hover {
     background-image: url(img/18.jpg);
 }
 
+.payment-bg {
+    background-image: url(img/online-payment.jpg);
+}
+
 .portfolio-bg {
     background-image: url(img/port.jpg);
 }

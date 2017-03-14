@@ -71,11 +71,11 @@
 
 
     <!-- Header-->
-    <header class="intro introhalf faq-bg">
+    <header class="intro introhalf payment-bg">
         <!-- Intro Header-->
         <div class="intro-body">
-            <h1>GoDaddy Email Setup and Configuration</h1>
-            <h4>Frequently Asked Questions</h4>
+            <h1>Online Payment</h1>
+            <h4>Paying The Bills</h4>
         </div>
     </header>
 
@@ -84,10 +84,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <script type="text/javascript" src="https://rockinb.formstack.com/forms/js.php/big_sky_credit_card_payment_1"></script>
-                    <noscript><a href="https://rockinb.formstack.com/forms/big_sky_credit_card_payment_1" title="Online Form">Online Form - Big Sky Credit Card Payment 1</a></noscript>
-                </div>
-            </div>
+<script type="text/javascript" src="https://rockinb.formstack.com/forms/js.php/big_sky_credit_card_payment_1"></script><noscript><a href="https://rockinb.formstack.com/forms/big_sky_credit_card_payment_1" title="Online Form">Online Form - Big Sky Credit Card Payment 1</a></noscript>                </div>
+           </div>
     </section>
     <!-- End Insert Code-->
     <!-- Google Anlytics -->
